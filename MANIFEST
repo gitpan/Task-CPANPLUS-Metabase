@@ -5,7 +5,7 @@ META.json
 META.yml
 Makefile.PL
 README
-bin/metabase-cpanp
+bin/metabase_cpanp
 dist.ini
 lib/Task/CPANPLUS/Metabase.pm
 t/00-compile.t

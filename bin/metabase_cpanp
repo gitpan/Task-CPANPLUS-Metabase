@@ -2,11 +2,11 @@
 use 5.006;
 use strict;
 use warnings;
-package main;
+package metabase_cpanp;
 BEGIN {
-  $main::VERSION = '0.02';
+  $metabase_cpanp::VERSION = '0.04';
 }
-# NAME: metabase-cpanp
+# NAME: metabase_cpanp
 # ABSTRACT: create a metabase profile
 
 use JSON 2;
@@ -102,15 +102,15 @@ __END__
 
 =head1 NAME
 
-main - create a metabase profile
+metabase_cpanp - create a metabase profile
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
-  $ metabase-cpanp
+  $ metabase_cpanp
   Enter full name: John Doe
   Enter email address: jdoe@example.com
   Enter password/secret: zqxjkh
@@ -119,7 +119,7 @@ version 0.02
 
 =head1 USAGE
 
-The metabase-cpanp program makes it easy to create a user profile for
+The metabase_cpanp program makes it easy to create a user profile for
 submitting facts and reports to a Metabase server and automatically
 configuring L<CPANPLUS>.
 

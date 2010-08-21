@@ -17,7 +17,7 @@ my %WriteMakefileArgs = (
   },
   'DISTNAME' => 'Task-CPANPLUS-Metabase',
   'EXE_FILES' => [
-    'bin/metabase-cpanp'
+    'bin/metabase_cpanp'
   ],
   'LICENSE' => 'perl',
   'NAME' => 'Task::CPANPLUS::Metabase',
@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     'Test::Reporter' => '1.57',
     'Test::Reporter::Transport::Metabase' => '1.999008'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }

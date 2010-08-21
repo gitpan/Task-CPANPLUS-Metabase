@@ -3,19 +3,19 @@ NAME
     Metabase
 
 VERSION
-    version 0.02
+    version 0.04
 
 SYNOPSIS
       cpanp -i Task::CPANPLUS::Metabase
 
-      metabase-cpanp
+      metabase_cpanp
 
 DESCRIPTION
     Task::CPANPLUS::Metabase is a Task module that installs the modules
     required for using Test::Reporter::Transport::Metabase with CPANPLUS for
     submitting CPAN test reports to the Metabase.
 
-    Also included is metabase-cpanp script which will generate an
+    Also included is metabase_cpanp script which will generate an
     appropriate id file and configure CPANPLUS for submitting CPAN test
     reports.
 

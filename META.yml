@@ -21,4 +21,4 @@ requires:
 resources:
   homepage: http://github.com/bingos/perl-task-modules/tree
   repository: git://github.com/bingos/perl-task-modules.git
-version: 0.02
+version: 0.04
