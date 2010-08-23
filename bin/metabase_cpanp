@@ -4,7 +4,7 @@ use strict;
 use warnings;
 package metabase_cpanp;
 BEGIN {
-  $metabase_cpanp::VERSION = '0.04';
+  $metabase_cpanp::VERSION = '0.06';
 }
 # NAME: metabase_cpanp
 # ABSTRACT: create a metabase profile
@@ -18,7 +18,7 @@ use Term::UI;
 use Term::ReadLine;
 use CPANPLUS::Configure;
 
-my $url = 'https://metabase.cpantesters.org/beta/';
+my $url = 'https://metabase.cpantesters.org/api/v1/';
 
 my (%profile, $help, $output, $full_name, $email_address, $password);
 
@@ -106,7 +106,7 @@ metabase_cpanp - create a metabase profile
 
 =head1 VERSION
 
-version 0.04
+version 0.06
 
 =head1 SYNOPSIS
 

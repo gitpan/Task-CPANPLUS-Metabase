@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     'Test::Reporter' => '1.57',
     'Test::Reporter::Transport::Metabase' => '1.999008'
   },
-  'VERSION' => '0.04',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }

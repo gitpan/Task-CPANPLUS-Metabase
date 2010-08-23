@@ -1,6 +1,6 @@
 package Task::CPANPLUS::Metabase;
 BEGIN {
-  $Task::CPANPLUS::Metabase::VERSION = '0.04';
+  $Task::CPANPLUS::Metabase::VERSION = '0.06';
 }
 
 # ABSTRACT: Install everything for CPANPLUS to use Metabase
@@ -20,7 +20,7 @@ Task::CPANPLUS::Metabase - Install everything for CPANPLUS to use Metabase
 
 =head1 VERSION
 
-version 0.04
+version 0.06
 
 =head1 SYNOPSIS
 
