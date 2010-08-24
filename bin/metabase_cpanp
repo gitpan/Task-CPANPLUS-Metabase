@@ -4,7 +4,7 @@ use strict;
 use warnings;
 package metabase_cpanp;
 BEGIN {
-  $metabase_cpanp::VERSION = '0.06';
+  $metabase_cpanp::VERSION = '0.08';
 }
 # NAME: metabase_cpanp
 # ABSTRACT: create a metabase profile
@@ -17,8 +17,16 @@ use File::Spec;
 use Term::UI;
 use Term::ReadLine;
 use CPANPLUS::Configure;
+use Module::Load::Conditional qw[check_install];
 
-my $url = 'https://metabase.cpantesters.org/api/v1/';
+my $url = 'metabase.cpantesters.org/api/v1/';
+
+if ( check_install( module => 'Crypt::SSLeay' ) ) {
+  $url = 'https://' . $url;
+}
+else {
+  $url = 'http://' . $url;
+}
 
 my (%profile, $help, $output, $full_name, $email_address, $password);
 
@@ -106,7 +114,7 @@ metabase_cpanp - create a metabase profile
 
 =head1 VERSION
 
-version 0.06
+version 0.08
 
 =head1 SYNOPSIS
 

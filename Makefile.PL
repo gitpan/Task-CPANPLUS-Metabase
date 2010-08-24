@@ -24,11 +24,12 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'CPANPLUS' => '0.9007',
     'Metabase::Fact' => '0.017',
+    'Module::Load::Conditional' => '0',
     'Term::UI' => '0',
     'Test::Reporter' => '1.57',
     'Test::Reporter::Transport::Metabase' => '1.999008'
   },
-  'VERSION' => '0.06',
+  'VERSION' => '0.08',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -3,7 +3,7 @@ NAME
     Metabase
 
 VERSION
-    version 0.06
+    version 0.08
 
 SYNOPSIS
       cpanp -i Task::CPANPLUS::Metabase
